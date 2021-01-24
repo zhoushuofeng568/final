@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0; list-style-type:none;}
+body{font-size:16px; font-family:"微软雅黑";}
+a img{border:none;}
+.clear{clear:both;}
+#nav{
+	margin:0 auto;
+	line-height: 110px;
+	color:#898989;
+}
+#nav a{
+    text-decoration:none;
+	color:#898989;
+}
+#nav a:hover{
+ color:#000;
+}
+#bg{
+	margin:0 auto;
+}
+#cha{
+	margin:0 auto;
+	line-height: 30px;
+	color:#898989;
+	margin-top: 15px;		
+}
+#cha a{
+    text-decoration:none;
+	color:#898989;
+}
+#cha a:hover{
+ color:#000;
+}
+#cha a{
+            float:left;
+            margin-left:20px;
+             transition-duration: 0.5s; //停留时间显示
+            width:200px;
+            height:200px;
+        }
+#cha a:hover{
+            -webkit-box-shadow: #000 0px 10px 10px;
+            -moz-box-shadow: #000 0px 10px 10px;
+            box-shadow: #000 0px 10px 10px;  }
+#ming{
+	margin:0 auto;
+	line-height: 30px;
+	color:#898989;
+	margin-top: 15px;		
+}
+#ming a{
+    text-decoration:none;
+	color:#898989;
+}
+#ming a:hover{
+ color:#000;
+}
+#foot{
+	font-size:14px;
+	margin:0 auto;
+	line-height:100px;
+	color:#4c4948;
+	margin-top: 15px;
+	background-color: #f4f4f4;	
+}#foot tr td {
+	text-align: center;
+}
